@@ -6,4 +6,9 @@ public class Calculator {
 
         return 2;
     }
+
+    public static int minus(String s) {
+
+        return 0;
+    }
 }
