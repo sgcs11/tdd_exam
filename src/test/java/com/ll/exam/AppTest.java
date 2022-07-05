@@ -30,4 +30,16 @@ public class AppTest {
         assertEquals(9, res);
     }
 
+    @Test
+    public void 곱하기_테스트() {
+        int res = Calculator.run("1 * 1");
+        assertEquals(1, res);
+    }
+
+    @Test
+    public void 곱하기_테스트2() {
+        int res = Calculator.run("10 * 10");
+        assertEquals(100, res);
+    }
+
 }
