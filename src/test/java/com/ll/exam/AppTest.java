@@ -8,13 +8,13 @@ public class AppTest {
 
     @Test
     public void 더하기_테스트() {
-        int res = Calculator.add("1 + 1");
+        int res = Calculator.run("1 + 1");
         assertEquals(2,res);
     }
 
     @Test
     public void 빼기_테스트() {
-        int res = Calculator.minus("1 - 1");
+        int res = Calculator.run("1 - 1");
         assertEquals(0, res);
     }
 
