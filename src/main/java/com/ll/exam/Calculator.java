@@ -13,11 +13,19 @@ public class Calculator {
 
     public static int plus(String s) {
 
-        return 2;
+        String[] num = s.split(" \\+ ");
+        int num1 = Integer.parseInt(num[0]);
+        int num2 = Integer.parseInt(num[1]);
+
+        return num1 + num2;
     }
 
     public static int minus(String s) {
 
-        return 0;
+        String[] num = s.split(" \\- ");
+        int num1 = Integer.parseInt(num[0]);
+        int num2 = Integer.parseInt(num[1]);
+
+        return num1 - num2;
     }
 }
